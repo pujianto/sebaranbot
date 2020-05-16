@@ -31,10 +31,9 @@ axios.get(sourceUrl)
         });
 
         fs.writeFileSync('runtime/locations.json', JSON.stringify(data));
+        fs.closeSync(fs.openSync('runtime/watchfile', 'w'));
         console.log('sync completed');  
 
-        
-        
     })
     .catch((e) => console.error(e));
 

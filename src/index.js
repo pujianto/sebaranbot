@@ -21,7 +21,7 @@ const config = {
  
 const bot = new SebaranBot(config, 'runtime/locations.json');
 
-chokidar.watch('runtime/locations.json', {
+chokidar.watch('runtime/watchfile', {
     'persistent': true
 }).on('change', (path) => {
     console.debug(`${path} has been changed`);
