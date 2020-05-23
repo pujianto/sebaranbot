@@ -36,7 +36,7 @@ class SebaranBot {
         const answers = results.map((answer) => {
             
             const answerId = uuidv4();
-            const message = Mustache.render(this.inlineTemplate, {lastSync: lastSync, fullName: answer.fullName, severity: answer.severity })
+            const message = Mustache.render(this.inlineTemplate, {lastSync: lastSync, fullName: answer.fullName, vul: answer.vul })
 
             return {
                 type: 'article',

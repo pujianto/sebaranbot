@@ -6,7 +6,7 @@ const ucfirst = text => text.toLowerCase()
     .split(' ')
     .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
     .join(' ');
-const severity = {
+const vul = {
     'low': 'rendah',
     'medium': 'sedang',
     'high': 'tinggi'
@@ -25,7 +25,7 @@ axios.get(sourceUrl)
         data.locations = response.data.map((location) => {
             return {
                 fullName: ucfirst(location.title),
-                severity: severity[location.kategori.toLowerCase()],
+                vul: vul[location.kategori.toLowerCase()],
                 name: ucfirst(location.title.split(',')[0])
             }
         });
