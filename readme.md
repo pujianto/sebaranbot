@@ -2,6 +2,7 @@
 Sebuah inline bot Telegram yang menyajikan informasi tingkat kerentanan persebaran COVID-19 (tinggi, sedang, dan rendah) pada tingkat kecamatan. Data diambil perjam dari situs https://covid19.go.id/peta-sebaran
 
 Sebaranbot memanfaatkan fitur [inline bot](https://core.telegram.org/bots/inline) di Telegram, yang memungkinkan berinteraksi dengan bot tanpa perlu chat secara langsung. cukup mention @sebaranbot diikuti nama kecamatan.
+![](Screenshot_1590248140.png)
 
 ### Cara menjalankan
 - Buat `.env` file dan isi parameter bot sesuai dengan template di `example.env` 
