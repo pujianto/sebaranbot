@@ -22,13 +22,13 @@
   "homepage": "https://github.com/pujianto/sebaranbot#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "chokidar": "^3.4.0",
+    "chokidar": "^3.4.3",
     "dotenv": "^8.2.0",
     "mustache": "^4.0.1",
     "node-telegram-bot-api": "^0.50.0",
-    "uuid": "^8.0.0"
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.12.1"
   }
 }
