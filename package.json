@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/pujianto/sebaranbot#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "chokidar": "^3.4.3",
     "dotenv": "^8.2.0",
     "mustache": "^4.0.1",
